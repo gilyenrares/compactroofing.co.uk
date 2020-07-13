@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact Top Roofers</title>
+	<title>Contact | Compact Roofing</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
@@ -33,7 +33,7 @@
 <!--Contact Us-->
 <div class="container my-5">
   <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
-    <h1 class="display-5 text-center">Contact <b>Top</b>RoofersLtd</h1>
+    <h1 class="display-5 text-center">Contact <b>Compact Roofing</b></h1>
   </div>
 </div>
 
@@ -115,7 +115,7 @@
   		<div class="form-group">
     		<div class="form-check">
       			<input class="form-check-input" name="agree" type="checkbox" id="check" required="required">
-      			<label class="form-check-label" for="check">I Agree to receive a call back from Top Roofers Ltd.</label>
+      			<label class="form-check-label" for="check">I Agree to receive a call back from Compact Roofing.</label>
     		</div>
   		</div>
       <div class="btn-group btn-group-lg d-flex mt-2" role="group" aria-label="Basic example">

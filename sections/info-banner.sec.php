@@ -1,39 +1,17 @@
-<div class="px-5 py-3 ">
+<div class="px-5 py-3 bg-primary">
     <div class="container">
-    	<div class="row justify-content-md-center">
+    	<div class="row justify-content-md-center text-center">
             <div class="col-sm-4">
-                <div class="row my-4 justify-content-between">
-                    <div class="col">
-                        <a href="#" target="_blank"><img src="images/f-icon.png" style="max-height: 100%; max-width: 100px;"></a><br>
-                        <!-- <a href="#" target="_blank" class="text-decoration-none">toproofersltd</a> -->
-                    </div>
-                    <div class="col">
-                        <a href="#" target="_blank"><img src="images/i-icon.png" style="max-height: 100%; max-width: 100px;"></a><br>
-                        <!-- <a href="#" target="_blank" class="text-decoration-none">toproofersltd</a> -->
-                    </div>
-                </div>
+               <h2 class="lato">30% OFF <br>THIS <br>JULY</h2> 
             </div>
         	<div class="col-sm-4">
-          		<div class="row justify-content-sm-center">
-                   <!--   <img src="images/logo-min.png" style="max-height: 150px; max-width: 200px;">  -->     
-                </div>
+          		<h2 class="lato">Compact Roofing</h2>
         	</div>
             <div class="col-sm-4">
-                <div class="row my-4 justify-content-between">
-                    <div class="col">
-                        <a href="mailto:#"><img src="images/e-icon.png" style="max-height: 100%; max-width: 100px;"></a><br>
-                        <!-- <a href="mailto:info@toproofersltd.com"  class="text-decoration-none ml-4">Email Us</a> -->
-                    </div>
-                    <div class="col">
-                        <a href="tel:+447380371224"><img src="images/p-icon.png" style="max-height: 100%; max-width: 100px;"></a><br>
-                        <!-- <a href="tel:+4475 960 92240"  class="text-decoration-none ml-4">Call Us</a> -->
-                    </div>
-                </div>
+               <h2 class="lato">CALL US FOR A FREE QUOTE</h2>
             </div>
-
-        	
-      </div>
-  </div>
+        </div>
+    </div>
 </div>
 
 

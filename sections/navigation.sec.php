@@ -1,329 +1,61 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-main border border-dark">
-  <div class="container">
-  <a class="navbar-brand bg-white card border border-dark" href="index.php"><img src="images/logo.png" width="90" height="60" class="d-inline-block align-center badge" alt=""></a>
-  <button class="navbar-toggler navbar-custom" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">Main Menu
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
+  <a class="navbar-brand lato w-25" href="index.php" id="title">Compact Roofing</a>  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">Menu
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarMain"> 
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> 
   <?php
     $text=$_SERVER['PHP_SELF'];
     $rest = substr("$text", 1);
-    switch ($rest) {
-    case 'index.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
+    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">';
+    if ($rest === 'index.php') {
+      echo '<li class="nav-item active">
               <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-           <li class="nav-item inactive dropdown">
-              <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
-              <a class="dropdown-item" href="chimneys.php">Chimneys</a>
-              <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
-              <a class="dropdown-item" href="roofline.php">Roofline</a>
-              <a class="dropdown-item" href="new-roofs.php">New Roofs</a>
-              <a class="dropdown-item" href="repairs.php">Repairs</a>
-           </div>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'references.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
+            </li>';
+    } else {
+      echo '<li class="nav-item">
               <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-            <li class="nav-item inactive dropdown">
-              <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
-              <a class="dropdown-item" href="chimneys.php">Chimneys</a>
-              <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
-              <a class="dropdown-item" href="roofline.php">Roofline</a>
-              <a class="dropdown-item" href="new-roofs.php">New Roofs</a>
-              <a class="dropdown-item" href="repairs.php">Repairs</a>
-            </div>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
+            </li>';
+    }
+    if ($rest === 'books.php') {
+      echo '<li class="nav-item active">
+              <a class="nav-link" href="gallery.php">Gallery</a>
+            </li>';
+    } else {
+      echo '<li class="nav-item">
+              <a class="nav-link" href="gallery.php">Gallery</a>
+            </li>';
+    }
+    if ($rest === 'blog.php') {
+      echo '<li class="nav-item active">
+              <a class="nav-link" href="services.php">Services</a>
+            </li>';
+    } else {
+      echo '<li class="nav-item">
+              <a class="nav-link" href="services.php">Services</a>
+            </li>';
+    }
+    if ($rest === 'about.php') {
+      echo '<li class="nav-item active">
               <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'commercial-roofing.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#navbarServices">Roofing Services</a>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
+            </li>';
+    } else {
+      echo '<li class="nav-item">
               <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
+            </li>';
+    }
+    if ($rest === 'contact.php') {
+      echo '<li class="nav-item active">
               <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'chimneys.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#navbarServices">Roofing Services</a>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
+            </li>';
+    } else {
+      echo '<li class="nav-item">
               <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'flat-roofing.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#navbarServices">Roofing Services</a>
-            </li>            
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'roofline.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#navbarServices">Roofing Services</a>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'new-roofs.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#navbarServices">Roofing Services</a>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'repairs.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#navbarServices">Roofing Services</a>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'serviced-area.php':
-     echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-           <li class="nav-item inactive dropdown">
-              <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
-              <a class="dropdown-item" href="chimneys.php">Chimneys</a>
-              <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
-              <a class="dropdown-item" href="roofline.php">Roofline</a>
-              <a class="dropdown-item" href="new-roofs.php">New Roofs</a>
-              <a class="dropdown-item" href="repairs.php">Repairs</a>
-           </div>
-            </li>
-            <li class="nav-item active">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'about.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-           <li class="nav-item inactive dropdown">
-              <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
-              <a class="dropdown-item" href="chimneys.php">Chimneys</a>
-              <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
-              <a class="dropdown-item" href="roofline.php">Roofline</a>
-              <a class="dropdown-item" href="new-roofs.php">New Roofs</a>
-              <a class="dropdown-item" href="repairs.php">Repairs</a>
-           </div>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    case 'contact.php':
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-           <li class="nav-item inactive dropdown">
-              <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
-              <a class="dropdown-item" href="chimneys.php">Chimneys</a>
-              <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
-              <a class="dropdown-item" href="roofline.php">Roofline</a>
-              <a class="dropdown-item" href="new-roofs.php">New Roofs</a>
-              <a class="dropdown-item" href="repairs.php">Repairs</a>
-           </div>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-    break;
-    default:
-    echo '<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item inactive">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="references.php">References</a>
-            </li>
-            <li class="nav-item inactive dropdown">
-              <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Roofing    Services</a>
-            <div class="dropdown-menu bg-main" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="commercial-roofing.php">Commercial Roofing</a>
-              <a class="dropdown-item" href="chimneys.php">Chimneys</a>
-              <a class="dropdown-item" href="flat-roofing.php">Flat Roofing</a>
-              <a class="dropdown-item" href="roofline.php">Roofline</a>
-              <a class="dropdown-item" href="new-roofs.php">New Roofs</a>
-              <a class="dropdown-item" href="repairs.php">Repairs</a>
-           </div>
-            </li>
-            <li class="nav-item inactive">
-             <a class="nav-link" href="serviced-area.php">Serviced Area</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="about.php">About Us</a>
-            </li>
-            <li class="nav-item inactive">
-              <a class="nav-link" href="contact.php">Contact Us</a>
-            </li>
-          </ul>';
-break;
-} 
+            </li>';
+    }
+    echo '</ul>'; 
+  echo '<a class="btn btn-primary" type="button" href="tel:+447380371224"><img src="images/p-icon.png" width="50" height="50" alt="Call logo image">Call Now</a>';
 ?>
-  </div>
   </div>
 </nav>
