@@ -23,7 +23,7 @@
 
 <!-- Title Banner -->
 <div class="">
-    <h1 class="display-5 text-center my-5">Roofing Services | <b>Compact Roofing</b></h1>
+    <h1 class="display-5 text-center my-5" id="newRoofs">Roofing Services | <b>Compact Roofing</b></h1>
 	<div class="btn-group btn-group-lg d-flex m-2" role="group" aria-label="Basic example">
   		<a type="button" class="btn btn-success border-secondary mr-2 rounded text-white" href="tel:+447380371224">Call Us</a>
   		<a type="button" class="btn btn-success border-secondary rounded text-white" href="contact.php#get-quote">Get a Quote</a>
@@ -65,7 +65,7 @@
 
         <p>By choosing Compact Roofing you are in safe hands. We have been working in the roofing industry and have completed the installation of many new roofs made from either tile, slate or felt through to more modern materials such as GRP fiberglass and EPDM rubber. Regardless roofing material you decide upon, the same care and attention to detail will be provided by our team.</p>
     
-        <p>In order for us to assess what type of roof you need, we will need to visit your premises. We will explain the difference between each roofing material and suggest which one we think would fit your project best. You can take a look at our previews work on our <a href="gallery.php">Gallery</a> page to get an idea about our workmanship and conduct.</p>
+        <p>In order for us to assess what type of roof you need, we will need to visit your premises. We will explain the difference between each roofing material and suggest which one we think would fit your project best. You can take a look at our previews work on our <a id="roofRepair" href="gallery.php">Gallery</a> page to get an idea about our workmanship and conduct.</p>
     </div>
   </div>
   </div>
@@ -101,6 +101,7 @@
     </div>
     <div class="col-md-4 bg-dark"><a href="#img8" data-toggle="modal" data-target="#img8"><img src="images/8.jpg" class="px-3 pb-5 w-100" alt="..."></a></div>
   </div>
+  <div id="roofline"></div>
   </div>
 
 
@@ -131,6 +132,7 @@
         <p> uPVC is virtually maintenance free and only if your gutters get blocked after a heavy winter or with tree leaves during the autumn, when the guttering should need some cleaning.</p>
       </div>
   </div>
+  <div id="chimney"></div>
   </div>
 
   <div class="bg-white border-top border-danger mb-5">
@@ -163,6 +165,7 @@
       </div>
       <div class="col-md-4 bg-secondary"><a href="#chimney" data-toggle="modal" data-target="#chimney"><img src="images/chimney.jpg" class="px-3 pb-5 w-100" alt="..."></a></div>
   </div>
+  <div id="commercial"></div>
   </div>
 
   <div class="bg-white border-top border-danger mb-5">

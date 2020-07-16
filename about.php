@@ -45,6 +45,7 @@
 		<p>When looking for a reputable roofing company, you need to know that they are fully qualified and vetted, competent at what they do and will get the job done efficiently and professionally at an affordable price.</p>
   		</article>
   </section>
+  <div id="review"></div>
   </div>
 </div>
 
@@ -53,7 +54,7 @@
     <div class="bg-dark text-center text-white p-5">
           <h2 class="display-5 text-center">Review <b>Compact Roofing</b> Services</h2>
     </div>
-    <section class="container bg-white mt-3 p-3" id="review">
+    <section class="container bg-white mt-3 p-3">
        <!-- review form -->
       <form action="includes/review.inc.php" method="post">
         <div class="form-row">

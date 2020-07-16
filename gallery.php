@@ -21,7 +21,7 @@
 
 
 <div class="bg-secondary">
-    <div class="bg-white p-5">
+    <div id="gallery" class="bg-white p-5">
         <h1 class="display-5 text-center"><b>Compact Roofing</b> Work gallery</h1>
     </div>
 	<h4 class="bg-secondary text-center text-white">We've built up a long list of images from our projects over the years. Take a look at a selection of our most recent work:</h4>

@@ -139,7 +139,7 @@
    <div class="col-md-3 bg-black"><a class="text-center text-white card-link m-3 p-5 d-block" href="mailto:info@compactroofing.co.uk"><h2>EMAIL</h2><br> <h4>info@ compactroofing .co.uk</h4></a></div>
    <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="tel:+4475 960 92240"><h2>CALL</h2><br> <h4>+4475 960 92240</h4></a></div>
    <div class="col-md-3 bg-secondary"><a class="text-center text-white card-link m-3 p-5 d-block" href="tel:+4475 960 92240"><h2>CHAT</h2><br> <h4>+4475 960 92240</h4></a></div>
-   <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="contact.php"><h2>ONLINE</h2><br> <h4>Contact Request</h4></a></div>
+   <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="contact.php#get-quote"><h2>ONLINE</h2><br> <h4>Contact Request</h4></a></div>
  </div>
 
 <!-- Footer -->
