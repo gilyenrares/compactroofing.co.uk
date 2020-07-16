@@ -23,11 +23,6 @@
 <!-- Carousel with images -->
 
   <div id="carousel" class="carousel slide carousel-fade border border-dark shadow-lg rounded" data-ride="carousel">
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="gallery.php">
-        <h2>Gallery</h2>
-      </a>
-    </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-interval="3000">
         <img src="images/w-1.jpg" class="d-block w-100 mr-auto ml-auto" alt="...">
@@ -57,40 +52,30 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-<div class="container my-5">
-  <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
-    <h1 class="display-5 text-center">Welcome to <b>Compact Roofing</b></h1>
-  </div>
+<div class="row m-0">
+  <div class="col-md-6 bg-primary"><h1 class="display-5 text-center p-5">Welcome to <br> <b>Compact Roofing</b></h1></div>
+  <div class="col-md-6 bg-black"><h2 class="text-center text-white p-5">We'll visit and quote on your roofing job for <br>  FREE!</h2></div>
+</div>
+<div class="row m-0">
+  <div class="col-md-4 bg-dark"><h2 class="text-center text-white p-5"><b>WE</b> ARE OPEN: <br><b>24 hours</b> a day to help you with all your roofing requirements.</h2></div>
+  <div class="col-md-4 bg-secondary"><a class="card-link mx-3" href="mailto:info@compactroofing.co.uk"><h2 class="text-center text-white p-5">Email Us: <br> info@ compactroofing .co.uk</h2></a></div>
+  <div class="col-md-4 bg-primary"><a class="card-link mx-3" href="tel:+4475 960 92240"><h2 class="text-center text-white p-5">Call Us: <br>+4475 960 92240</h2></a></div>
 </div>
 
 <!--About us-->
-<div class="container my-5">
-  <div class="shadow-lg bg-white border-top border-danger rounded">
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="about.php">
-        <h2>About Us</h2>
-      </a>
-    </div>
+<h2 class="text-center pt-5">About Us</h2>
   <section class="p-3">
-    <p>Our team are dedicated and experienced roofers who strive to make your roofing work painless and as straight forward as possible. Using only the best quality roofing materials on the market today, we build roofs that are built to last but also look great for many years to come.</p>
-    <p>When looking for a reputable roofing company, you need to know that they are fully qualified and vetted, competent at what they do and will get the job done efficiently and professionally at an affordable price.</p>
+    <h4><p><b>Our team is dedicated and experienced</b> roofing company who strive to make your roofing work painless and as straight forward as possible. <b>Using only the best quality roofing materials</b> on the market today, we build roofs that are built to last but also look great for many years to come.</p></h4>
+    <h4><p><b>When looking for</b> a reputable roofing company, you need to know that they are fully <b>qualified and vetted</b>, competent at what they do and will get the <b>job done</b> efficiently and professionally at an <b>affordable price</b>.</p></h4>
   </section>
-  </div>
-</div>
 
 <!--Roofing Services-->
-<div class="container my-5" id="rs">
-  <div class="shadow-lg bg-white border-top border-danger rounded">
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="#rs">
-        <h2>Roofing Services</h2>
-      </a>
-    </div>
-    <div class="row p-3 justify-content-md-center">
+<div class="bg-dark mt-5">
+  <h2 class="text-center text-white p-3">Roofing Services</h2>
+    <div class="row m-0 p-3 justify-content-md-center">
       <div class="col-xl-4 col-lg-4 col-md-6 p-2">
         <div class="card" >
-          <img src="images/10.jpg" class="card-img-top" alt="...">
+          <img src="images/10.jpg" class="card-img-top img-thumbnail" alt="...">
             <div class="card-body">
               <h5 class="card-title">Commercial Roofing</h5>
               <p class="card-text">Commercial roofing is one of the services that we provide to different businesses, covering a wide range of shapes and sizes for most types of warehouses...</p>
@@ -100,7 +85,7 @@
       </div>
       <div class="col-xl-4 col-lg-4 col-md-6 p-2">
         <div class="card">
-          <img src="images/chimney.jpg" class="card-img-top" alt="Picture of chimney">
+          <img src="images/chimney.jpg" class="card-img-top img-thumbnail" alt="Picture of chimney">
             <div class="card-body">
               <h5 class="card-title">Chimneys</h5>
               <p class="card-text">We offer a variety of services dealing in regards with chimney work such as: building or rebuilding of chimneys, lead work, tiles, mortar and re-pointing...</p>
@@ -110,7 +95,7 @@
       </div>
       <div class="col-xl-4 col-lg-4 col-md-6 p-2">
         <div class="card" >
-          <img src="images/grp-flat-roof.jpg" class="card-img-top" alt="...">
+          <img src="images/1.jpg" class="card-img-top img-thumbnail" alt="...">
             <div class="card-body">
               <h5 class="card-title">Flat Roofing</h5>
               <p class="card-text">We offer a wide range of flat roofing services. From torch on felt, GRP fiberglass to EPDM rubber roofing according to customer requirements…</p>
@@ -120,7 +105,7 @@
       </div>
       <div class="col-xl-4 col-lg-4 col-md-6 p-2">
         <div class="card" >
-          <img src="images/guttering.jpg" class="card-img-top" alt="...">
+          <img src="images/guttering.jpg" class="card-img-top img-thumbnail" alt="...">
             <div class="card-body">
               <h5 class="card-title">Roofline Services</h5>
               <p class="card-text"> We can provide guttering to fit any type of property covering a wide range of types and shapes. We also offer a gutter maintenance service… </p>
@@ -130,7 +115,7 @@
       </div>
       <div class="col-xl-4 col-lg-4 col-md-6 p-2">
         <div class="card" >
-          <img src="images/tile-roof.jpg" class="card-img-top" alt="...">
+          <img src="images/5.jpg" class="card-img-top img-thumbnail" alt="...">
             <div class="card-body">
               <h5 class="card-title">New Roofs</h5>
               <p class="card-text">If you are looking for a brand new roof then look no further as we can definitively help with that. For more information about new roofs head to…</p>
@@ -140,7 +125,7 @@
       </div>
       <div class="col-xl-4 col-lg-4 col-md-6 p-2">
         <div class="card" >
-          <img src="images/roof-repairs.jpg" class="card-img-top" alt="...">
+          <img src="images/20.jpg" class="card-img-top img-thumbnail" alt="...">
             <div class="card-body">
               <h5 class="card-title">Roof Repairs</h5>
               <p class="card-text">Roofing repairs take various forms. If you are simply looking for tile replacement, mortar re-pointing or cracks patched up for a cost-effective service…</p>
@@ -149,8 +134,13 @@
           </div>
       </div>
     </div>
-  </div>
 </div>
+ <div class="row m-0">
+   <div class="col-md-3 bg-black"><a class="text-center text-white card-link m-3 p-5 d-block" href="mailto:info@compactroofing.co.uk"><h2>EMAIL</h2><br> <h4>info@ compactroofing .co.uk</h4></a></div>
+   <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="tel:+4475 960 92240"><h2>CALL</h2><br> <h4>+4475 960 92240</h4></a></div>
+   <div class="col-md-3 bg-secondary"><a class="text-center text-white card-link m-3 p-5 d-block" href="tel:+4475 960 92240"><h2>CHAT</h2><br> <h4>+4475 960 92240</h4></a></div>
+   <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="contact.php"><h2>ONLINE</h2><br> <h4>Contact Request</h4></a></div>
+ </div>
 
 <!-- Footer -->
 <?php include "sections/footer.sec.php" ?>

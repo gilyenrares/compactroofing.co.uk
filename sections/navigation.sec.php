@@ -1,5 +1,5 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black">
-  <a class="navbar-brand lato w-25" href="index.php" id="title">Compact Roofing</a>  
+  <a class="navbar-brand lato" href="index.php" id="title">Compact Roofing</a>  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">Menu
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,7 +18,7 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>';
     }
-    if ($rest === 'books.php') {
+    if ($rest === 'gallery.php') {
       echo '<li class="nav-item active">
               <a class="nav-link" href="gallery.php">Gallery</a>
             </li>';
@@ -27,7 +27,7 @@
               <a class="nav-link" href="gallery.php">Gallery</a>
             </li>';
     }
-    if ($rest === 'blog.php') {
+    if ($rest === 'services.php') {
       echo '<li class="nav-item active">
               <a class="nav-link" href="services.php">Services</a>
             </li>';

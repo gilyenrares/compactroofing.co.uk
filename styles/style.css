@@ -46,12 +46,14 @@ li spam{
   text-align: center;
   font-family: "lato", sans-serif;
   font-weight: 300;
-  font-size: 40px;
-  letter-spacing: 10px;
+  font-size: 2.5vw;
   padding-left: 10px;
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.img-thumbnail{
+	height: 400px !important;
 }
 .red{
 	color: red;
@@ -127,21 +129,17 @@ li spam{
 	text-transform: uppercase;
 }
 .activ{
-	background-color: #fff;
+	background-color: #000;
 	color: #233f92 !important;
-	border: 10px solid #fff;
-	border-radius: 8px;
 }
 .active a{
-	background-color: #fff;
+	background-color: #000;
 	color: #233f92 !important;
-	border: 10px solid #fff;
-	border-radius: 8px;
 	text-decoration: overline;
 	text-decoration-color: #dc3545;
 }
 .active a:hover{
-	color: #000 !important;
+	color: #fff !important;
 	text-decoration: overline;
 	text-decoration-style: double;
 	text-decoration-color: #dc3545;

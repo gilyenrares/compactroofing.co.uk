@@ -32,41 +32,39 @@
 
 <!--Contact Us-->
 <div class="container my-5">
-  <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
     <h1 class="display-5 text-center">Contact <b>Compact Roofing</b></h1>
-  </div>
 </div>
+<div class="row m-0">
+   <div class="col-md-3 bg-dark"><a class="text-center text-white card-link m-3 p-5 d-block" href="mailto:info@compactroofing.co.uk"><h2>EMAIL</h2></a></div>
+   <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="tel:+4475 960 92240"><h2>CALL</h2></a></div>
+   <div class="col-md-3 bg-secondary"><a class="text-center text-white card-link m-3 p-5 d-block" href="tel:+4475 960 92240"><h2>CHAT</h2></a></div>
+   <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="about.php#review"><h2>REVIEW</h2></a></div>
+ </div>
 
 <!-- Title Banner -->
-<div class="container my-5">
-  <div class="shadow-lg bg-white border-top border-danger rounded">
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="contact.php">
+  <div class="bg-white border-top border-danger ">
+    <div class="bg-black text-center text-white p-5">
         <h2>Contact Details</h2>
-      </a>
     </div>
     
-  <section class="p-3">
+  <section class="p-5">
     <p>Our team are dedicated and experienced roofers who strive to make your roofing work painless and as straight forward as possible. Using only the best quality roofing materials on the market today, we build roofs that are built to last but also look great for many years to come.</p>
     <!-- id requiered for good positioning of the viewframe -->
     <p id="get-quote">When looking for a reputable roofing company, you need to know that they are fully qualified and vetted, competent at what they do and will get the job done efficiently and professionally at an affordable price.</p>
   </section>
   </div>
-</div>
+
 
 <!-- Main body -->
-<div class="container my-5">
-  <div class="shadow-lg bg-white border-top border-danger rounded">
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="contact.php">
+  <div class="bg-white border-top border-danger ">
+    <div class="bg-dark text-center text-white p-5">
         <h2>Contact Form</h2>
-      </a>
     </div>
-  <section class="p-3">
-  <p>Please do not hesitate to get in touch with us for a no-obligation quote, or with any inquires you may have. You can contact us via <a href="mailto:info@toproofersltd.com">email</a>, or <a href="tel:+4475 960 92240">phone</a>, or by using our <a href="#contactForm">contact form</a> bellow.</p>
+  <section class="p-3 bg-dark">
+  <p class="text-white">Please do not hesitate to get in touch with us for a no-obligation quote, or with any inquires you may have. You can contact us via <a href="mailto:info@toproofersltd.com">email</a>, or <a href="tel:+4475 960 92240">phone</a>, or by using our <a href="#contactForm">contact form</a> bellow.</p>
 	
 <!-- contact form -->
-	<form action="includes/contact.inc.php" method="post">
+	<form class="p-5 bg-white" action="includes/contact.inc.php" method="post">
   		<div class="form-row">
     		<div class="form-group col-md-6">
  		    	<label for="firstName">Your Name:</label>
@@ -123,10 +121,9 @@
         <a type="button" class="btn btn-warning border-secondary rounded text-white" href="https://rbg-dev.com/contact.php" target="_blank">Report Issue *</a>
       </div> 
 	</form><hr>
-  <p><i>* If you encounter any issue with our website or any other related problem, please notify </i><img src="images/rbg-logo.png" width="38" height="19"> RBG-DEVELOPMENT<i> our partner web development team, by using the button above (NOTE: YOU WILL BE REDIRECTED TO RBG-DEVELOPMET WEBSITE). </i></p>
+  <p class="text-center text-white"><i>* If you encounter any issue with our website or any other related problem, please notify </i><img src="images/rbg-logo.png" width="38" height="19"> RBG-DEVELOPMENT<i> our partner web development team, by using the button above <br> (NOTE: YOU WILL BE REDIRECTED TO RBG-DEVELOPMET WEBSITE). </i></p>
   </section>
 	</div>
-</div>
 <!-- Footer -->
 <?php include "sections/footer.sec.php" ?>
 <!-- Scripts -->

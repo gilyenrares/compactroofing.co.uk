@@ -20,17 +20,14 @@
 <!-- Main body -->
 
 
-<div class="container my-5">
-  <div class="shadow-lg bg-white border-top border-danger rounded">
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="#">
-          <h1 class="display-5 text-center"><b>Compact Roofing</b> Work gallery</h1>
-      </a>
+<div class="bg-secondary">
+    <div class="bg-white p-5">
+        <h1 class="display-5 text-center"><b>Compact Roofing</b> Work gallery</h1>
     </div>
-	<p>We've built up a long list of images from our projects over the years. Take a look at a selection of our most recent work:</p>
+	<h4 class="bg-secondary text-center text-white">We've built up a long list of images from our projects over the years. Take a look at a selection of our most recent work:</h4>
 	</section>
-	<section class="container">
-		<div class="row justify-content-md-center">
+	<section class="mx-5">
+		<div class="row m-0 justify-content-md-center pb-5">
     		<div class="col-xl-3 col-lg-4 col-md-6 p-2 img-link"><a href="#img1" data-toggle="modal" data-target="#img1"><img src="images/1.jpg" class="shadow-lg img-thumbnail d-block w-100 mr-auto ml-auto" alt="..."></a></div>
             <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img2" data-toggle="modal" data-target="#img2"><img src="images/2.jpg" class="shadow-lg img-thumbnail d-block w-100 mr-auto ml-auto" alt="..."></a></div>
             <div class="col-xl-3 col-lg-4 col-md-6 p-2"><a href="#img3" data-toggle="modal" data-target="#img3"><img src="images/3.jpg" class="shadow-lg img-thumbnail d-block w-100 mr-auto ml-auto" alt="..."></a></div>
@@ -62,6 +59,12 @@
 	</section>
 	</div>
 </div>
+ <div class="row m-0">
+   <div class="col-md-3 bg-black"><a class="text-center text-white card-link m-3 p-5 d-block" href="mailto:info@compactroofing.co.uk"><h2>EMAIL</h2></a></div>
+   <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="tel:+4475 960 92240"><h2>CALL</h2></a></div>
+   <div class="col-md-3 bg-dark"><a class="text-center text-white card-link m-3 p-5 d-block" href="tel:+4475 960 92240"><h2>CHAT</h2></a></div>
+   <div class="col-md-3 bg-primary"><a class="text-center text-white card-link m-3 p-5 d-block" href="about.php#review"><h2>REVIEW</h2></a></div>
+ </div>
 <!-- Footer -->
 <?php include "sections/footer.sec.php" ?>
 <!-- Scripts -->

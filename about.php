@@ -19,21 +19,17 @@
 <?php include 'sections/navigation.sec.php';?>
 
 <!--About us-->
-<div class="container my-5">
-  <div class="shadow-lg p-5 bg-white border-top border-danger rounded">
-    <h1 class="display-5 text-center">About <b>Compact Roofing</b></h1>
-  </div>
+<div class="container my-5">    
+  <h1 class="display-5 text-center">About <b>Compact Roofing</b></h1>
 </div>
 
 <!-- Main body -->
-<div class="container my-5">
+<div class="my-5">
   <div class="shadow-lg bg-white border-top border-danger rounded">
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="#">
+    <div class="bg-black text-center text-white p-5">
         <h2>Our Background</h2>
-      </a>
     </div>
-  <section class="p-3">
+  <section class="p-5">
     <article>
     	<img src="images/tile-roof.jpg" class="rounded float-left w-25 m-5" alt="Compact Roofing logo">
     	<p>Compact Roofing offers a complete service pack, and can help with all aspects of roofing – from fixing a slipped slate or clearing a blocked gutter to completely replacing a roof – ensuring nothing is out of place and that water leaks are a thing of the past.</p>
@@ -52,14 +48,12 @@
   </div>
 </div>
 
-<div class="container my-5">
-  <div class="shadow-lg bg-white border-top border-danger rounded">
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="https://www.mybuilder.com/profile/view/top_roofers_ltd/feedback" target="_blank">
+<div class="my-5">
+  <div class="bg-dark border-top border-danger rounded">
+    <div class="bg-dark text-center text-white p-5">
           <h2 class="display-5 text-center">Review <b>Compact Roofing</b> Services</h2>
-      </a>
     </div>
-    <section class="container p-3">
+    <section class="container bg-white mt-3 p-3" id="review">
        <!-- review form -->
       <form action="includes/review.inc.php" method="post">
         <div class="form-row">
@@ -105,12 +99,10 @@
     </section>
   </div>
 </div>  
-<div class="container my-5">
+<div class="my-5">
   <div class="shadow-lg bg-white border-top border-danger rounded">    
-    <div class="s-link">
-      <a class="d-block px-5 py-3 text-center border border-dark shadow-lg rounded" href="https://www.mybuilder.com/profile/view/top_roofers_ltd/feedback" target="_blank">
+    <div class="bg-primary text-center text-white p-5">
           <h2 class="display-5 text-center"><b>Compact Roofing</b> Reviews</h2>
-      </a>
     </div>
     <section class="container p-3">
       <?php include'includes/review-open.inc.php' ?>
